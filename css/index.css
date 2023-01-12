@@ -1,6 +1,6 @@
-/* body {
-    background: url(/img/clouds.jpg) no-repeat center center fixed;
-} */
+#bootstrap-overrides #hithere {
+	background-color: purple;
+}
 
 .navbar-brand {
     font-weight: bold;
