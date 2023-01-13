@@ -1,5 +1,21 @@
+@font-face {
+	font-family: firstFont;
+	src: url(https://fonts.googleapis.com/css2?family=Acme&family=News+Cycle&family=Raleway:ital,wght@0,700;1,900&display=swap);
+  }
+
 #hithere {
 	font-size: 10vh;
+	font-weight: bold;
+	font-family: firstFont;
+}
+
+#iam {
+
+}
+
+#mm {
+	font-size: 5vh;
+	font-family: firstFont;
 }
 
 .navbar-brand {
