@@ -1,9 +1,6 @@
-/* @font-face {
-	font-family: firstFont;
-	src: url('https://fonts.googleapis.com/css2?family=Acme&family=IBM+Plex+Mono:ital@1&family=IBM+Plex+Sans&family=News+Cycle&family=Raleway:ital,wght@0,700;1,900&display=swap');
-  } */
+/* Basic CSS */
 
-#hithere {
+#hi-there {
 	font-size: 10vh;
 	font-weight: bold;
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,7 +10,7 @@
 }
 
 
-#iam {
+#i-am {
 	font-size: 3vh;
 }
 
@@ -26,11 +23,11 @@
 	-webkit-text-stroke-color: black;
 }
 
-#iama {
+#i-am-a {
 	font-size: 3vh;
 }
 
-#webdev {
+#web-dev {
 	font-size: 5vh;
 	font-weight: bold;
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -68,6 +65,11 @@ body {
 	top: 0;
 	z-index: -1;
 }
+
+a.nav-item:hover {
+	color: white;
+}
+
 
 /* KEYFRAMES */
 
