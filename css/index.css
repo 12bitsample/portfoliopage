@@ -66,8 +66,8 @@ body {
 	z-index: -1;
 }
 
-a.nav-item:hover {
-	color: white;
+li > a:hover {
+	color: white !important;
 }
 
 
