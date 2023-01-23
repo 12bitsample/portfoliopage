@@ -45,12 +45,12 @@
 	-webkit-text-stroke-color: black;
 }
 
-#about-me-card {
+#about-me-div {
 	background-color: rgb(255, 255, 255, .5);
 }
 
 #about-me-text {
-	font-size: 1.5vh;
+	font-size: .85rem;
 }
 
 .navbar-brand {
