@@ -72,6 +72,10 @@ body {
 	overflow-x: hidden;
 }
 
+ul {
+	list-style-type: none;
+}
+
 #background-wrap {
     background: #00b4ff;
     bottom: 0;
