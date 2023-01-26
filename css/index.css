@@ -47,10 +47,12 @@
 
 #about-me-div {
 	background-color: rgb(255, 255, 255, .5);
+	
 }
 
-#about-me-text {
-	font-size: .85rem;
+p, li {
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: .8rem;
 }
 
 .navbar-brand {
