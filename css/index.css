@@ -50,6 +50,14 @@
 	
 }
 
+#about-content {
+	overflow: hidden;
+}
+
+img {
+	display: block !important;
+}
+
 p, li {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: .8rem;
@@ -63,7 +71,6 @@ a {
 .navbar-brand {
     font-weight: bold;
 }
-
 
 #top {
     height: 30vh;
@@ -96,11 +103,26 @@ li > a:hover {
 	color: white !important;
 }
 
-@media (max-width: 900px) {
-	html, body {
-		margin: 0; 
-		height: 100%; 
-		overflow: hidden
+@media (max-width: 525px) {
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+
+	body {
+		padding: env(safe-area-inset); 
+	}
+
+	section {
+		
+		overflow-y: auto;
+		scrollbar-width: none;
+	}
+
+	section::-webkit-scrollbar {
+		display: none;
 	}
 
 	#nav-items {
@@ -110,6 +132,15 @@ li > a:hover {
 		margin:auto;
 		width: 100%;
 
+	}
+
+	#top {
+		height: 35vh;
+	}
+
+	#about-me-div {
+		width: 75vw !important;
+		
 	}
 
 	ul {
@@ -122,10 +153,6 @@ li > a:hover {
 	.navbar {
 		display:flex;
 		flex-direction: row;
-	}
-
-	.navbar-brand {
-		
 	}
 
 	#hi-there {
@@ -143,6 +170,17 @@ li > a:hover {
 	#web-dev {
 		padding: 0 5%;
 	}
+ }
+
+ @media (max-width: 300px) {
+	#mobile-center {
+		margin: 0;
+		position: absolute;
+		top: 70%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
  }
 
 /* KEYFRAMES */
